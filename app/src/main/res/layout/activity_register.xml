@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/register_name"
+        style="@style/EditText_style"
+        android:layout_marginBottom="5dp"
+        android:drawableLeft="@drawable/user_name"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/register_pwd"
+        style="@style/EditText_style"
+        android:layout_marginBottom="5dp"
+        android:drawableLeft="@drawable/pass_word"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/register_pwd2"
+        style="@style/EditText_style"
+        android:drawableLeft="@drawable/pass_word"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/register_sure"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:text="注册" />
+
+
+</LinearLayout>
